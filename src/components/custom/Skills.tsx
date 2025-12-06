@@ -1,17 +1,13 @@
 import { Card, CardContent } from "@/components/ui/card";
 
-export function Skills() {
-     const skills = [
-          { name: "Skill A", items: ["A", "B", "C"] },
-          { name: "Skill A", items: ["A", "B", "C"] },
-          { name: "Skill A", items: ["A", "B", "C"] }
-     ];
+import type { ISkills } from "@/interfaces/ISkills";
 
 
+export function Skills({ skills, title }: { skills: ISkills[], title : string }) {
      return (
           <section className="py-8">
                <h1 className="font-bold mb-8 text-2xl text-center">
-                    Skills title
+                    { title }
                </h1>
                <div className="gap-5 grid grid-cols-1 lg:grid-cols-3 w-full md:grid-cols-2 sm:grid-cols-1">
                     { skills.map((skill) => (
