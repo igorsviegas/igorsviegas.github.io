@@ -1,5 +1,5 @@
 export interface ITimeline {
      description: string;
-     period:      string;
-     title:       string;
+     period     : string;
+     title      : string;
 };

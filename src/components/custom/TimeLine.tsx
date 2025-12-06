@@ -1,7 +1,7 @@
 import type { ITimeline } from "@/interfaces/ITimeline";
 
 
-export function TimeLine({ timeline, title }: { timeline: ITimeline[], title: string }) {
+export function Timeline({ timeline, title }: { timeline: ITimeline[], title: string }) {
      return (
           <section className="py-8">
                <h1 className="font-bold mb-8 text-2xl text-center">
