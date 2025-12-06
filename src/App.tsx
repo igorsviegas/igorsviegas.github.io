@@ -1,8 +1,10 @@
+import { Profile } from "./components/custom/Profile";
+
 function App() {
   return (
-    <h1>
-      Home page
-    </h1>
+    <div className="bg-gray-950 min-h-screen text-white w-full">
+      <Profile/>
+    </div>
   );
 };
 
