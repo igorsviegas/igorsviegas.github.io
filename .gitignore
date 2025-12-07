@@ -1,0 +1,34 @@
+# extension #
+
+.DS_Store
+.idea
+
+*.local
+*.log
+*.njsproj
+*.sln
+*.suo
+*.sw?
+
+*.ntvs*
+
+# file #
+
+lerna-debug.log*
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# folder #
+
+dist
+dist-ssr
+logs
+node_modules
+
+.vscode/*
+
+# folder and file #
+
+!.vscode/extensions.json
