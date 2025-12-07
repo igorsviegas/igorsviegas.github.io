@@ -7,7 +7,7 @@ export function Timeline({ timeline, title }: { timeline: ITimeline[], title: st
                <h1 className="font-bold mb-8 text-2xl text-center">
                     { title }
                </h1>
-               <div className="border-gray-700 border-l-2 pl-5 space-y-10">
+               <div className="border-gray-700 border-l-2 pl-5 space-y-10 text-justify">
                     { timeline.map((item, index) => (
                          <div key={ index }>
                               <h3 className="font-semibold text">
@@ -16,7 +16,7 @@ export function Timeline({ timeline, title }: { timeline: ITimeline[], title: st
                               <p className="font-semibold text-gray-300">
                                    { item.title }
                               </p>
-                              <p className="text-gray-400">
+                              <p className="text-gray-400 ">
                                    { item.description }
                               </p>
                          </div>
