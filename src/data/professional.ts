@@ -3,8 +3,8 @@ import type { ITimeline } from "@/interfaces/ITimeline";
 
 export const professional: ITimeline[] = [
      {
-          description: "Desenvolvedor desde 2023, especializado em aplicações Desktop, Web e serviços utilizando .NET, com experiência no desenvolvimento de APIs e interfaces Web utilizando Node.js e Vue.js",
-          period     : "2023 - Atualmente",
+          description: "Atuando como desenvolvedor desde 2023, especializado em aplicações Desktop, Web e serviços utilizando .NET, com experiência no desenvolvimento de APIs e interfaces Web utilizando Node.js e Vue.js",
+          period     : "2020 - Atualmente",
           title      : "Infocerta Informática LTDA"
      },
      {

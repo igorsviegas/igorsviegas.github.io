@@ -18,6 +18,7 @@ function App() {
     });
   };
   
+  
   return (
     <div className="min-h-screen select-none text-white w-full">
       <div className="h-screen mx-auto w-10/12 md:w-8/12 lg:w-9/12 xl:w-7/12">
