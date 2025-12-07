@@ -1,14 +1,14 @@
 import type { ITimeline } from "@/interfaces/ITimeline";
 
 
-export function Timeline({ timeline, title }: { timeline: ITimeline[], title: string }) {
+export function Timeline({ data, title }: { data: ITimeline[], title: string }) {
      return (
           <section className="py-8">
                <h1 className="font-bold mb-8 text-2xl text-center">
                     { title }
                </h1>
                <div className="border-gray-700 border-l-2 pl-5 space-y-10 text-justify">
-                    { timeline.map((item, index) => (
+                    { data.map((item, index) => (
                          <div key={ index }>
                               <h3 className="font-semibold text">
                                    { item.period }
