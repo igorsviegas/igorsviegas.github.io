@@ -1,6 +1,7 @@
 import { Profile } from "./components/custom/Profile";
 import { Skills } from "./components/custom/Skills";
 import { Timeline } from "./components/custom/Timeline";
+import { Footer } from "./components/custom/Footer";
 
 import type { ISkills } from "./interfaces/ISkills";
 import type { ITimeline } from "./interfaces/ITimeline";
@@ -71,6 +72,7 @@ function App() {
         <Timeline timeline={ professionalTimeline } title="Linha do tempo profissional" />
         <Timeline timeline={ academicTimeline } title="Linha do tempo acadêmica" />
         <Skills skills={ skills } title="Habilidades/conhecimentos" />
+        <Footer />
       </div>
     </div>
   );
