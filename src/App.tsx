@@ -6,7 +6,7 @@ import { profile } from "./data/profile";
 import { RiArrowUpSLine } from "react-icons/ri";
 import { Skills } from "./components/custom/Skills";
 import { skills } from "./data/skills";
-import { Timeline } from "./components/custom/Timeline";
+import { Timeline } from "./components/custom/TimeLine";
 import { Footer } from "./components/custom/Footer";
 
 
