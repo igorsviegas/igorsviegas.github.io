@@ -21,6 +21,7 @@ src/
 |   ├── custom/
 |   |   ├── Footer.tsx
 |   |   ├── Profile.tsx
+|   |   ├── Projects.tsx
 |   |   ├── Skills.tsx
 |   |   └── Timeline.tsx
 |   └── ui/
@@ -31,9 +32,11 @@ src/
 |   ├── academic.ts
 |   ├── professional.ts
 |   ├── profile.ts
+|   ├── projects.ts
 |   └── skills.ts
 ├── interfaces
 |   ├── IProfile.ts
+|   ├── IProject.ts
 |   ├── ISkills.ts
 |   └── ITimeline.ts
 ├── lib
@@ -74,6 +77,35 @@ export const profile: IProfile = {
           role       : ""
      }
 };
+```
+
+---
+
+Para definir os projetos que comp&otilde;em sua experi&ecirc;ncia profissional, utilize o componente **Projects.tsx** e a interface **IProject.ts** para exibir cada projeto seu. A forma como foi desenvolvida, permite inserir projetos privados e p&uacute;blicos, sendo os p&uacute;blicos com imagens e links externos.
+
+Para incluir os seus projetos, utilize o arquivo `src/data/projects.ts` e adicione os dados com base na interface **IProject.ts**:
+
+
+```js
+import type { IProject } from "@/interfaces/IProject";
+
+export const projects: IProject[] = [
+     // Exemplo de projeto privado
+     {
+          description: "",
+          title      : "",
+          pins       : ["", ""]
+     },
+
+     // Exemplo de projeto público
+     {
+          background_url: "",
+          description   : "",
+          project_url   : "",
+          title         : "",
+          pins          : ["", ""]
+     }
+];
 ```
 
 ---
